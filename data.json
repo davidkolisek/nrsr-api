@@ -1,0 +1,11 @@
+{
+  "david": {
+    "age": 12,
+    "tags": ["male","slovak"]
+
+  },
+  "martina": {
+    "age": 24,
+    "tags": ["female","austria"]
+  }
+}
