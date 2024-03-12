@@ -193,9 +193,8 @@ function parseVotingData(html, id) {
         },
     });
 
-    const ref = db.ref(dbDate);
-    const votingRef = ref.child(uid);
-    votingRef.set(dataArray);
+    const ref = db.ref('hlasovania').child(uid);
+    ref.set(dataArray);
     return dataArray;
 }
 
